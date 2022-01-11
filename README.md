@@ -342,5 +342,5 @@ Any contribution is welcome. Especially for Readme and Demos. To see the list of
 [demo-source-man]: /examples/Man
 [demo-source-packman]: /examples/Packman
 [demo-source-cradleman]: /examples/CradleMan
-[demo-source-balls]: /examples/Balls
+[demo-source-balls]: /examples/Easing
 [todo]: /TODO.md

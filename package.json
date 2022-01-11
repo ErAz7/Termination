@@ -1,0 +1,54 @@
+{
+  "name": "Termination",
+  "version": "1.0.0",
+  "description": "Terminal animation done right",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rimraf dist/ && babel ./src --out-dir dist/ --copy-files",
+    "start": "npm run build && node dist"
+  },
+  "dependencies": {
+    "bezier-easing": "^2.1.0",
+    "colors": "^1.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "eslint": "^8.4.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "rimraf": "^3.0.2"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true
+          }
+        }
+      ]
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErAz7/cli-animation.git"
+  },
+  "keywords": [
+    "animation",
+    "terminal",
+    "cli"
+  ],
+  "author": "ErAz7",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ErAz7/cli-animation/issues"
+  },
+  "homepage": "https://github.com/ErAz7/cli-animation#readme"
+}

@@ -3,15 +3,23 @@
 
 ## Demo
 ### The Man
+[Source Code][demo-source-man]
+
 [demo-video-man]
 
 ### Packman
+[Source Code][demo-source-packman]
+
 [demo-video-packman]
 
 ### Newton Cradle
+[Source Code][demo-source-cradleman]
+
 [demo-video-cradleman]
 
 ### Easing Transition
+[Source Code][demo-source-balls]
+
 [demo-video-balls]
 
 __Any contribution to demo section is very welcome. To add your demos, you can create a PR for `/examples`__
@@ -331,4 +339,8 @@ Any contribution is welcome. Especially for Readme and Demos. To see the list of
 [demo-video-packman]: https://user-images.githubusercontent.com/46329768/149027691-9afbac16-7685-47be-89bc-66595b7921d8.mp4
 [demo-video-cradleman]: https://user-images.githubusercontent.com/46329768/149027721-7bd02dc8-d512-42bb-bd3e-e8c1f1f14105.mp4
 [demo-video-balls]: https://user-images.githubusercontent.com/46329768/149027561-ff9df0b6-5071-4fdb-9275-50a53349c80a.mp4
+[demo-source-man]: /examples/Man
+[demo-source-packman]: /examples/Packman
+[demo-source-cradleman]: /examples/CradleMan
+[demo-source-balls]: /examples/Balls
 [todo]: /TODO.md

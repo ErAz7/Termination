@@ -38,17 +38,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErAz7/cli-animation.git"
+    "url": "git+https://github.com/ErAz7/Termination.git"
   },
   "keywords": [
     "animation",
     "terminal",
-    "cli"
+    "cli",
+    "command-line"
   ],
   "author": "ErAz7",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ErAz7/cli-animation/issues"
+    "url": "https://github.com/ErAz7/Termination/issues"
   },
-  "homepage": "https://github.com/ErAz7/cli-animation#readme"
+  "homepage": "https://github.com/ErAz7/Termination#readme"
 }

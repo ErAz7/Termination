@@ -1,4 +1,4 @@
-# Termination ![version-shield]
+# Termination [![npm-shield]][npm]
 > Terminal animation done right!
 
 ## Demo
@@ -13,14 +13,14 @@
 [demo-video-packman]
 
 ### Newton Cradle
-[Source Code][demo-source-cradleman]
+[Source Code][demo-source-newton-cradle]
 
-[demo-video-cradleman]
+[demo-video-newton-cradle]
 
 ### Easing Transition
-[Source Code][demo-source-balls]
+[Source Code][demo-source-easing]
 
-[demo-video-balls]
+[demo-video-easing]
 
 __Any contribution to demo section is very welcome. To add your demos, you can create a PR for `/examples`__
 
@@ -334,13 +334,14 @@ Transition of any props of an object
 
 Any contribution is welcome. Especially for Readme and Demos. To see the list of priority features, [check here][todo]
 
-[version-shield]: https://img.shields.io/badge/Version-1.0.0-purple?style=flat-square
+[npm]: https://www.npmjs.com/package/termination
+[npm-shield]: https://img.shields.io/badge/npm-1.0.2-green?style=flat-square
 [demo-video-man]: https://user-images.githubusercontent.com/46329768/149027935-b6af7a4d-2659-4b00-a9d5-6cc4a1a9a295.mp4
 [demo-video-packman]: https://user-images.githubusercontent.com/46329768/149027691-9afbac16-7685-47be-89bc-66595b7921d8.mp4
-[demo-video-cradleman]: https://user-images.githubusercontent.com/46329768/149027721-7bd02dc8-d512-42bb-bd3e-e8c1f1f14105.mp4
-[demo-video-balls]: https://user-images.githubusercontent.com/46329768/149027561-ff9df0b6-5071-4fdb-9275-50a53349c80a.mp4
+[demo-video-newton-cradle]: https://user-images.githubusercontent.com/46329768/149027721-7bd02dc8-d512-42bb-bd3e-e8c1f1f14105.mp4
+[demo-video-easing]: https://user-images.githubusercontent.com/46329768/149027561-ff9df0b6-5071-4fdb-9275-50a53349c80a.mp4
 [demo-source-man]: /examples/Man
 [demo-source-packman]: /examples/Packman
-[demo-source-cradleman]: /examples/CradleMan
-[demo-source-balls]: /examples/Easing
+[demo-source-newton-cradle]: /examples/CradleMan
+[demo-source-easing]: /examples/Easing
 [todo]: /TODO.md

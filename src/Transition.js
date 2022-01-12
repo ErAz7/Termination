@@ -2,7 +2,7 @@ import BezierEasing from 'bezier-easing';
 import { definedOnly, selectProps } from './utils';
 
 export default class Transition {
-    constructor(object, steps, { loop = false, alternate = false, loopInterval = 0 }, onFinish) {
+    constructor(object, steps, { loop = false, alternate = false, loopInterval = 0 } = {}, onFinish) {
         this.state = {
             isRunning: false,
             loop: loop,

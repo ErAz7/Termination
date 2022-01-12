@@ -335,7 +335,7 @@ Transition of any props of an object
 Any contribution is welcome. Especially for Readme and Demos. To see the list of priority features, [check here][todo]
 
 [npm]: https://www.npmjs.com/package/termination
-[npm-shield]: https://img.shields.io/badge/npm-1.0.2-green?style=flat-square
+[npm-shield]: https://img.shields.io/badge/npm-1.0.3-green?style=flat-square
 [demo-video-man]: https://user-images.githubusercontent.com/46329768/149027935-b6af7a4d-2659-4b00-a9d5-6cc4a1a9a295.mp4
 [demo-video-packman]: https://user-images.githubusercontent.com/46329768/149027691-9afbac16-7685-47be-89bc-66595b7921d8.mp4
 [demo-video-newton-cradle]: https://user-images.githubusercontent.com/46329768/149027721-7bd02dc8-d512-42bb-bd3e-e8c1f1f14105.mp4

@@ -1,5 +1,4 @@
-import BezierEasing from 'bezier-easing';
-import { definedOnly, selectProps, merge } from './utils';
+import { definedOnly, merge } from './utils';
 
 export default class Object {
     constructor(props, onRemove, onTransition) {
@@ -12,7 +11,7 @@ export default class Object {
             color
         } = props;
 
-        const finalContent = content || '';
+        const finalContent = this.fixNewLine(content || '');
 
         const { lines, width, height } = this.getCalculatedContentProps(finalContent);
 
@@ -48,6 +47,12 @@ export default class Object {
         };
     }
 
+    fixNewLine(str) {
+        const out = str.replace(/\r\n/g, '\n');
+
+        return out;
+    }
+
     /**
      * External
      */
@@ -56,7 +61,7 @@ export default class Object {
         const { content = '' } = props;
         const { content: prevContent } = this.state;
 
-        const finalContent = content || prevContent || '';
+        const finalContent = this.fixNewLine(content || prevContent || '');
 
         const { lines, width, height } = this.getCalculatedContentProps(finalContent);
 

@@ -1,7 +1,7 @@
 {
   "name": "termination",
-  "version": "1.0.2",
-  "description": "Terminal animation done right",
+  "version": "1.0.3",
+  "description": "Terminal animation (CLI animation) done right",
   "main": "./dist/index.js",
   "scripts": {
     "build": "rimraf dist/ && babel ./src --out-dir dist/ --copy-files",
